@@ -12,10 +12,10 @@ https://habit-tracker-dpvb.onrender.com/
 
 ### features
 
-1.View list of all the habits.
-2.Add a new habit.
-3.Check weekly status of added habits.
-4.Toggle status of a habit on any particular day ( done, not done, pending ).
+1. View list of all the habits.
+2. Add a new habit.
+3 .Check weekly status of added habits.
+4. Toggle status of a habit on any particular day ( done, not done, pending ).
 
 ### Tech Stack
 
