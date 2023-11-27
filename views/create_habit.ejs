@@ -1,0 +1,35 @@
+<!-- Container for the habit creation form with top margin -->
+<div class="container mt-4">
+
+    <!-- Heading for the habit tracker page -->
+    <h2 class="text-center">Habit Tracker</h2>
+
+    <!-- Form for creating a new habit with a specified action -->
+    <form id="create-habit-form" method="POST" action="/api/v1/users/habit/create">
+
+        <!-- Row for organizing form elements -->
+        <div class="row">
+
+            <!-- Column for the habit name input -->
+            <div class="col-12 col-md-6">
+                <label for="habitName" class="form-label">Habit Name</label>
+
+                <!-- Input field for entering the habit name -->
+                <input type="text" class="form-control" id="habitName" name="habitName" placeholder="e.g.Exercise" required>
+            </div>
+        </div>
+
+        <!-- Additional space for better visual separation -->
+        <div class="mb-3">
+
+            <!-- Label for the habit description textarea -->
+            <label for="habitDescription" class="form-label">Question</label>
+
+            <!-- Textarea for entering the habit description or related question -->
+            <textarea class="form-control" id="habitDescription" name="habitDescription" rows="3" placeholder="e.g. Did you exercise today?"></textarea>
+        </div>
+
+        <!-- Button to submit the form and add a new habit -->
+        <button type="submit" class="btn btn-primary">Add Habit</button>
+    </form>
+</div>

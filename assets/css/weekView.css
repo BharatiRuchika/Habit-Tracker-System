@@ -1,0 +1,27 @@
+.statusImage{
+    width: 100%;
+    height: 100%;
+}
+.correctIcon{
+    color: black;
+    font-size: 20px !important;
+}
+
+.wrongIcon{
+    color: red;
+    font-size: 20px !important;
+}
+.statusImage{
+    width: 50%;
+    height: 50%;
+}
+.DeleteBtn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    margin: 10px;
+}

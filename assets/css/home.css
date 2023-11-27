@@ -1,0 +1,125 @@
+/* Calendar styles */
+
+/* Calendar container */
+.calendar {
+    max-width: 500px;
+    margin: 10px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Calendar header */
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+}
+
+#prevWeek,
+#nextWeek {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#prevWeek:hover,
+#nextWeek:hover {
+    text-decoration: underline;
+}
+
+/* Calendar week display */
+#currentWeek {
+    font-size: 1.2rem;
+}
+
+/* Calendar grid */
+.calendar-grid,.gridParent {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.headerParent{
+    display:flex;
+    justify-content: space-between;
+}
+/* Calendar cell */
+.calendar-cell {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Day headers */
+.day-header {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: 1px solid #007BFF;
+    text-align: center;
+}
+
+/* Habit event */
+.event {
+    background-color: #28a745;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 2px;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+/* Hover effect on cells */
+.calendar-cell:hover {
+    background-color: #e0e0e0;
+}
+
+
+/* Highlight today's cell */
+.calendar-cell.today {
+    background-color: #28a745; /* Today's background color */
+    color: #fff; /* Today's text color */
+    font-weight: bold; /* Make today's date bold */
+}
+
+/* Highlight selected cell */
+
+
+/* .calendar-cell.selected {
+    background-color: #007BFF; 
+    color: #fff; 
+    font-weight: bold; 
+} */
+
+
+.calendar-cell:hover {
+    background-color: #e0e0e0;
+}
+
+.list{
+    background-color: #007BFF;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 80%;
+}
+
+
+
+#habitList{
+    list-style: none;
+    text-align: center;
+}

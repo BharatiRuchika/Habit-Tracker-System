@@ -1,0 +1,48 @@
+<!-- Include external stylesheets for the week view and home -->
+<link rel="stylesheet" href="/css/weekView.css">
+<link rel="stylesheet" href="/css/home.css">
+
+<!-- Container for the week view calendar with habits data attribute -->
+<div class="calendar" data-habits="<%=habits %>">
+
+    <!-- Calendar header section with navigation buttons and current week display -->
+    <div class="calendar-header">
+        <button id="prevWeek">Previous Week</button>
+        <h1 id="currentWeek">Week of November 1, 2023</h1>
+        <button id="nextWeek">Next Week</button>
+    </div>
+
+    <!-- Calendar grid for day headers -->
+    <div class="calendar-grid">
+        <div class="day-header">Sun</div>
+        <div class="day-header">Mon</div>
+        <div class="day-header">Tue</div>
+        <div class="day-header">Wed</div>
+        <div class="day-header">Thu</div>
+        <div class="day-header">Fri</div>
+        <div class="day-header">Sat</div>
+    </div>
+
+    <!-- Calendar body for day headers -->
+    <div class="calendar-body">
+        <div class="gridParent">
+            <div class="day-header">Sun</div>
+            <div class="day-header">Mon</div>
+            <div class="day-header">Tue</div>
+            <div class="day-header">Wed</div>
+            <div class="day-header">Thu</div>
+            <div class="day-header">Fri</div>
+            <div class="day-header">Sat</div>
+        </div>
+    </div>
+</div>
+
+ 
+<!-- Include external JavaScript for week view functionality -->
+<script src="/js/weekView.js"></script>
+
+
+
+
+
+

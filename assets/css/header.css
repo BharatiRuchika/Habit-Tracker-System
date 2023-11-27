@@ -1,0 +1,18 @@
+#header{
+    background-color: gray;
+    /* height:10vh; */
+    color:white;
+    padding:25px 15px
+}
+
+
+#header-icons i{
+    font-size: 30px;
+}
+
+#auth-buttons button{
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
