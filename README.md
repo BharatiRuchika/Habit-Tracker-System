@@ -3,6 +3,13 @@
 This is a habit tracker project  made using Nodejs, Express, MongoDB, EJS. User can add multiple habits to their list, and can check their weekly status of habit (done, not done, pending).
 user can delete the habit.
 
+### Host Link
+https://habit-tracker-dpvb.onrender.com/
+
+### user login credentials
++ emailId : r@gmail.com
++ password: 123
+
 ### features
 
 1.View list of all the habits.
